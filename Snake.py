@@ -3,53 +3,6 @@ import random
 import time
 from curses import textpad
 
-MAX_MATRIZ = 14
-
-cuadrado = []
-    #     @
-    #     *
-    # * * * * *
-    #     *
-    #     *
-    #     *
-    #    * *
-    #   *   *
-    #  *     *
-
-
-
-# Esta funcion crea las dimesiones del cuadrado en donde se ingresara nuestro
-# sujeto de prueba.
-# def generar_cuadrado(cuadrado):
-#     cuadrado = []
-#     for i in range(0,MAX_MATRIZ):
-#         fila = []
-#         for i in range(0,MAX_MATRIZ):
-#             fila +=['-']
-#         cuadrado += [fila]
-#     return cuadrado
-#
-#
-# def ColocarSujeto(cuadrado):
-#     cuadrado[0][6] = '@'
-#     cuadrado[1][6] = '0'
-#     cuadrado[2][4] = '0'
-#     cuadrado[2][5] = '0'
-#     cuadrado[2][6] = '0'
-#     cuadrado[2][7] = '0'
-#     cuadrado[2][8] = '0'
-#     cuadrado[3][6] = '0'
-#     cuadrado[4][6] = '0'
-#     cuadrado[5][6] = '0'
-#     cuadrado[7][5] = '0'
-#     cuadrado[7][7] = '0'
-#     cuadrado[9][4] = '0'
-#     cuadrado[9][8] = '0'
-#     cuadrado[11][3] = '0'
-#     cuadrado[11][9] = '0'
-#     return cuadrado
-
-# print(cuadrado)
 
 def create_food(snake, box):
     food = None
